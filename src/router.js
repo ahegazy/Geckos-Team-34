@@ -8,7 +8,7 @@ import book from './components/book'
 
 
 export const router = new VueRouter({
-    mode: 'history',//hash
+    mode: 'hash',//history 
     base: __dirname,
     routes: [
       {
